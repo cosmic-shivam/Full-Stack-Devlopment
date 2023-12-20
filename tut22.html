@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudeo selectors and more designing</title>
+</head>
+<style>
+    .container{
+        border: 4px solid yellow;
+        background-color: aquamarine;
+        padding: 34px;
+        margin: 34px auto;
+        width: 660px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(53, 5, 5);
+    }
+    a:hover{
+        background-color: aqua;
+        border: 3px solid magenta;
+    }
+    a:visited{
+        /* use for check link is previous visted or not */
+        background-color: rgb(195, 17, 17);
+    }
+    a:active{
+        /* to check link active or not */
+        background-color: rgb(49, 49, 152);
+    }
+    .btn{
+        background-color: pink;
+        padding: 4px;
+        border: none;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 4px;
+
+    }
+</style>
+
+<body>
+    <div class="container" id="cont1">
+        <h1>This is heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fugit, cum molestias eveniet, itaque quidem
+            dolore ratione unde quae ipsum, doloribus cumque voluptas quasi sint ea vitae cupiditate tempore
+            necessitatibus!</p>
+            <a href="https://www.cricketworldcup.com///" class="btn">Read more</a>
+            <button class="btn">Contact us</button>
+    </div>
+
+</body>
+
+</html>
